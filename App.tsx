@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { Transaction, BudgetStats } from './types';
-import Dashboard from './components/Dashboard';
-import TransactionForm from './components/TransactionForm';
-import TransactionList from './components/TransactionList';
+import { Transaction, BudgetStats } from './types.ts';
+import Dashboard from './components/Dashboard.tsx';
+import TransactionForm from './components/TransactionForm.tsx';
+import TransactionList from './components/TransactionList.tsx';
 
 const App: React.FC = () => {
   const [transactions, setTransactions] = useState<Transaction[]>([]);

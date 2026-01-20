@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { TransactionType } from '../types';
+import { TransactionType } from '../types.ts';
 
 interface TransactionFormProps {
   onAdd: (description: string, amount: number, type: TransactionType) => void;
