@@ -1,0 +1,5 @@
+{
+  "name": "Minimal Budget Tracker",
+  "description": "A clean, minimalist personal finance manager with real-time dashboarding, transaction history, and local persistence.",
+  "requestFramePermissions": []
+}
